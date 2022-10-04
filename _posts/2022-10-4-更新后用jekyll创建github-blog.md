@@ -1,25 +1,19 @@
 ```text
 ---
 layout: post
-title: 更新后用jekyll创建github blog
+title: macos用jekyll创建github blog
 ---
 ```
 
 这是我的第一篇blog，写的也是如何通过github快速创建你自己的个人博客网站
 
-最近这不到一个月有了很多改动，以前的教程都失效了，截止文章发出官方文档也是错误的，反反复复排查，发现根本不是我的操作问题
-
-![image-20221004下午65737718](/Users/alohahenry/Library/Application Support/typora-user-images/image-20221004下午65737718.png)
+最近8月有了些改动，截止文章发出官方文档也是错误的，整完后才发现根本不是我的操作问题
 
 首先打开github.com
 
 ![image-20221004下午63601653](/Users/alohahenry/Library/Application Support/typora-user-images/image-20221004下午63601653.png)
 
-点击Your profile
-
 ![image-20221004下午63749250](/Users/alohahenry/Library/Application Support/typora-user-images/image-20221004下午63749250.png)
-
-创建新的repository
 
 ![image-20221004下午63932770](/Users/alohahenry/Library/Application Support/typora-user-images/image-20221004下午63932770.png)
 
@@ -31,32 +25,49 @@ title: 更新后用jekyll创建github blog
 
 （我创建了同名文件所以点击不了）
 
-![image-20221004下午64323860](/Users/alohahenry/Library/Application Support/typora-user-images/image-20221004下午64323860.png)
-
-一开始应该是没有我的config文件的
-
 ![image-20221004下午64428194](/Users/alohahenry/Library/Application Support/typora-user-images/image-20221004下午64428194.png)
 
-所有都可以用默认设置，但很多教程包括官方文档告诉你到了这里应该点击“Chooser a Theme”，但是**根本没有这个按钮，并且实际上就是什么都不会有**
+所有都可以用默认设置，但很多教程包括官方文档告诉你到了这里应该点击“Chooser a Theme”，但是**根本没有这个按钮，并且实际上就是什么都不会有**，不过这个时候
 
-![image-20221004下午64702748](/Users/alohahenry/Library/Application Support/typora-user-images/image-20221004下午64702748.png)
+![image-20221004下午65737718](/Users/alohahenry/Library/Application Support/typora-user-images/image-20221004下午65737718.png)
 
-所以返回并添加新文件，**命名：_config.yml**
+这是原因，所以先想着用默认主题吧，后面有了文件改着就简单，但弃用主题选择器意味着不得不碰一点命令行
 
-![image-20221004下午64828047](/Users/alohahenry/Library/Application Support/typora-user-images/image-20221004下午64828047.png)
+**接下来没图所以一行一行读仔细了**
 
-并在内容处填写（可以替换为其他主题）
+这时我开始翻官方文档了：
 
-```yaml
-remote_theme: vszhub/not-pure-poole
-plugins:  
-  - jekyll-remote-theme
+我先下载了github desktop然后按照提示正常登入我的 GitHub 账号，然后 Clone 下来那个 GitHub Pages 项目
+
+切到命令行，切到用户的Documents/Github/**用户名**.github.io目录下
+
+输入：（得装homebrew
+
+`brew install chruby ruby-install git`
+
+`ruby-install ruby`
+
+可能会出现一些报错像libffi libyaml没安装，也用`brew install xxx`安装了就行
+
+再输入`gem install bundler`
+
+结果从这里这个bundler一直没装上
+
+我的解决方案是（卸了重装ffi）
+
+```text
+sudo gem uninstall ffi
+sudo bundle config build.ffi --enable-libffi-alloc
+sudo gem install ffi -- --enable-libffi-alloc
+bundle init
+bundle install
+jekyll new . --force <-此处必须有--force 也不能起名字否则另开目录
 ```
 
-![image-20221004下午65310904](/Users/alohahenry/Library/Application Support/typora-user-images/image-20221004下午65310904.png)
+至此，你会发现Github Desktop多了一堆文件，Fetch上去之后大功告成，再改主题进入xxx.github.io/_config.yml按照主题所在github项目下的改动和说明就可以改主题，然后写文章就看\_posts文件夹的说明文件，应该就可以运作了
 
-至此，等待2~3分钟后访问**用户名.github.io**，如果成功，恭喜
+如果出现问题可以给aloha.henry.2018@gmail.com发邮件，我会及时回复或修正文章的
 
-![image-20221004下午70031180](/Users/alohahenry/Library/Application Support/typora-user-images/image-20221004下午70031180.png)
+如果能帮到就太好了，当时整了一堆错误。
 
-以后所有配置文件都是不自带的，但是github应该是能读取，如果有了解欢迎告诉我，我也是小白，沟通或汇报问题发邮件至*aloha.henry.2018@gmail.com*随时联系
+
