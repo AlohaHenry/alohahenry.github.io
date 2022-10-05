@@ -13,7 +13,7 @@ title: macos用jekyll创建github blog
 
 ![1](https://github.com/AlohaHenry/alohahenry.github.io/blob/main/_images/2022-10-4-macos用jekyll创建github个人博客/image-20221004%E4%B8%8B%E5%8D%8863601653.png?raw=true)
 
-![image-20221004下午63749250](https://github.com/AlohaHenry/alohahenry.github.io/blob/main/_images/image-20221004%E4%B8%8B%E5%8D%8863749250.png?raw=true)
+![image-20221004下午63749250](https://github.com/AlohaHenry/alohahenry.github.io/blob/main/_images/2022-10-4-macos用jekyll创建github个人博客/image-20221004%E4%B8%8B%E5%8D%8863749250.png?raw=true)
 
 ![image-20221004下午63932770](https://github.com/AlohaHenry/alohahenry.github.io/blob/main/_images/2022-10-4-macos用jekyll创建github个人博客/image-20221004%E4%B8%8B%E5%8D%8863932770.png?raw=true)
 
