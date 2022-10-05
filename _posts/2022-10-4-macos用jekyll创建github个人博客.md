@@ -11,19 +11,19 @@ title: macos用jekyll创建github blog
 
 首先打开github.com
 
-![image-20221004下午63601653](/Users/alohahenry/Documents/GitHub/alohahenry.github.io/_images/image-20221004下午63601653.png)
+![1](https://github.com/AlohaHenry/alohahenry.github.io/blob/main/_images/image-20221004%E4%B8%8B%E5%8D%8863601653.png?raw=true)
 
-![image-20221004下午63749250](/Users/alohahenry/Documents/GitHub/alohahenry.github.io/_images/image-20221004下午63749250.png)
+![image-20221004下午63749250](https://github.com/AlohaHenry/alohahenry.github.io/blob/main/_images/image-20221004%E4%B8%8B%E5%8D%8863749250.png?raw=true)
 
-![image-20221004下午63932770](/Users/alohahenry/Documents/GitHub/alohahenry.github.io/_images/image-20221004下午63932770.png)
+![image-20221004下午63932770](https://github.com/AlohaHenry/alohahenry.github.io/blob/main/_images/image-20221004%E4%B8%8B%E5%8D%8863932770.png?raw=true)
 
 **注意：名字必须输入为格式： 用户名.github.io**
 
 我填写alohahenry.github.io
 
-![image-20221004下午64134536](/Users/alohahenry/Documents/GitHub/alohahenry.github.io/_images/image-20221004下午64134536.png)
+![image-20221004下午64134536](https://github.com/AlohaHenry/alohahenry.github.io/blob/main/_images/image-20221004%E4%B8%8B%E5%8D%8864134536.png?raw=true)
 
-（我创建了同名文件所以点击不了）![image-20221004下午64428194](/Users/alohahenry/Documents/GitHub/alohahenry.github.io/_images/image-20221004下午64428194.png)
+（我创建了同名文件所以点击不了）![image-20221004下午64428194](https://github.com/AlohaHenry/alohahenry.github.io/blob/main/_images/image-20221004%E4%B8%8B%E5%8D%8864428194.png?raw=true)
 
 所有都可以用默认设置，但很多教程包括官方文档告诉你到了这里应该点击“Chooser a Theme”，但是**根本没有这个按钮，并且实际上就是什么都不会有**
 
@@ -37,7 +37,7 @@ title: macos用jekyll创建github blog
 
 我先下载了github desktop
 
-<img src="/Users/alohahenry/Documents/GitHub/alohahenry.github.io/_images/Snipaste_2022-10-05_09-56-58.png" alt="Snipaste_2022-10-05_09-56-58" style="zoom:50%;" />
+![a](https://github.com/AlohaHenry/alohahenry.github.io/blob/main/_images/Snipaste_2022-10-05_09-56-58.png?raw=true)
 
 然后按照提示正常登入我的 GitHub 账号，然后 Clone 下来那个 GitHub Pages 项目
 
