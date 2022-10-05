@@ -11,25 +11,23 @@ title: macos用jekyll创建github blog
 
 首先打开github.com
 
-![image-20221004下午63601653](/Users/alohahenry/Library/Application Support/typora-user-images/image-20221004下午63601653.png)
+![image-20221004下午63601653](/Users/alohahenry/Documents/GitHub/alohahenry.github.io/_images/image-20221004下午63601653.png)
 
-![image-20221004下午63749250](/Users/alohahenry/Library/Application Support/typora-user-images/image-20221004下午63749250.png)
+![image-20221004下午63749250](/Users/alohahenry/Documents/GitHub/alohahenry.github.io/_images/image-20221004下午63749250.png)
 
-![image-20221004下午63932770](/Users/alohahenry/Library/Application Support/typora-user-images/image-20221004下午63932770.png)
+![image-20221004下午63932770](/Users/alohahenry/Documents/GitHub/alohahenry.github.io/_images/image-20221004下午63932770.png)
 
 **注意：名字必须输入为格式： 用户名.github.io**
 
 我填写alohahenry.github.io
 
-![image-20221004下午64134536](/Users/alohahenry/Library/Application Support/typora-user-images/image-20221004下午64134536.png)
+![image-20221004下午64134536](/Users/alohahenry/Documents/GitHub/alohahenry.github.io/_images/image-20221004下午64134536.png)
 
-（我创建了同名文件所以点击不了）
+（我创建了同名文件所以点击不了）![image-20221004下午64428194](/Users/alohahenry/Documents/GitHub/alohahenry.github.io/_images/image-20221004下午64428194.png)
 
-![image-20221004下午64428194](/Users/alohahenry/Library/Application Support/typora-user-images/image-20221004下午64428194.png)
+所有都可以用默认设置，但很多教程包括官方文档告诉你到了这里应该点击“Chooser a Theme”，但是**根本没有这个按钮，并且实际上就是什么都不会有**
 
-所有都可以用默认设置，但很多教程包括官方文档告诉你到了这里应该点击“Chooser a Theme”，但是**根本没有这个按钮，并且实际上就是什么都不会有**，不过这个时候
-
-![image-20221004下午65737718](/Users/alohahenry/Library/Application Support/typora-user-images/image-20221004下午65737718.png)
+![image-20221004下午65737718](/Users/alohahenry/Documents/GitHub/alohahenry.github.io/_images/image-20221004下午65737718.png)
 
 这是原因，所以先想着用默认主题吧，后面有了文件改着就简单，但弃用主题选择器意味着不得不碰一点命令行
 
@@ -37,7 +35,11 @@ title: macos用jekyll创建github blog
 
 这时我开始翻官方文档了：
 
-我先下载了github desktop然后按照提示正常登入我的 GitHub 账号，然后 Clone 下来那个 GitHub Pages 项目
+我先下载了github desktop
+
+<img src="/Users/alohahenry/Documents/GitHub/alohahenry.github.io/_images/Snipaste_2022-10-05_09-56-58.png" alt="Snipaste_2022-10-05_09-56-58" style="zoom:50%;" />
+
+然后按照提示正常登入我的 GitHub 账号，然后 Clone 下来那个 GitHub Pages 项目
 
 切到命令行，切到用户的Documents/Github/**用户名**.github.io目录下
 
@@ -56,7 +58,7 @@ title: macos用jekyll创建github blog
 我的解决方案是（卸了重装ffi）
 
 ```text
-sudo gem uninstall ffi
+sudo gem uninstall ffi <-没有sudo可能提示没有权限
 sudo bundle config build.ffi --enable-libffi-alloc
 sudo gem install ffi -- --enable-libffi-alloc
 bundle init
@@ -68,6 +70,5 @@ jekyll new . --force <-此处必须有--force 也不能起名字否则另开目�
 
 如果出现问题可以给aloha.henry.2018@gmail.com发邮件，我会及时回复或修正文章的
 
-如果能帮到就太好了，当时整了一堆错误。
-
+如果能帮到就太好了，当时整了一堆错误，不过发出来也证明完好了！
 
