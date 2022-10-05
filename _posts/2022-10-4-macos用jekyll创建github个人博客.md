@@ -11,23 +11,23 @@ title: macos用jekyll创建github blog
 
 首先打开github.com
 
-![1](https://github.com/AlohaHenry/alohahenry.github.io/blob/main/_images/image-20221004%E4%B8%8B%E5%8D%8863601653.png?raw=true)
+![1](https://github.com/AlohaHenry/alohahenry.github.io/blob/main/_images/2022-10-4-macos用jekyll创建github个人博客/image-20221004%E4%B8%8B%E5%8D%8863601653.png?raw=true)
 
 ![image-20221004下午63749250](https://github.com/AlohaHenry/alohahenry.github.io/blob/main/_images/image-20221004%E4%B8%8B%E5%8D%8863749250.png?raw=true)
 
-![image-20221004下午63932770](https://github.com/AlohaHenry/alohahenry.github.io/blob/main/_images/image-20221004%E4%B8%8B%E5%8D%8863932770.png?raw=true)
+![image-20221004下午63932770](https://github.com/AlohaHenry/alohahenry.github.io/blob/main/_images/2022-10-4-macos用jekyll创建github个人博客/image-20221004%E4%B8%8B%E5%8D%8863932770.png?raw=true)
 
 **注意：名字必须输入为格式： 用户名.github.io**
 
 我填写alohahenry.github.io
 
-![image-20221004下午64134536](https://github.com/AlohaHenry/alohahenry.github.io/blob/main/_images/image-20221004%E4%B8%8B%E5%8D%8864134536.png?raw=true)
+![image-20221004下午64134536](https://github.com/AlohaHenry/alohahenry.github.io/blob/main/_images/2022-10-4-macos用jekyll创建github个人博客/image-20221004%E4%B8%8B%E5%8D%8864134536.png?raw=true)
 
-（我创建了同名文件所以点击不了）![image-20221004下午64428194](https://github.com/AlohaHenry/alohahenry.github.io/blob/main/_images/image-20221004%E4%B8%8B%E5%8D%8864428194.png?raw=true)
+（我创建了同名文件所以点击不了）![image-20221004下午64428194](https://github.com/AlohaHenry/alohahenry.github.io/blob/main/_images/2022-10-4-macos用jekyll创建github个人博客/image-20221004%E4%B8%8B%E5%8D%8864428194.png?raw=true)
 
 所有都可以用默认设置，但很多教程包括官方文档告诉你到了这里应该点击“Chooser a Theme”，但是**根本没有这个按钮，并且实际上就是什么都不会有**
 
-![image-20221004下午65737718](/Users/alohahenry/Documents/GitHub/alohahenry.github.io/_images/image-20221004下午65737718.png)
+![image-20221004下午65737718](https://github.com/AlohaHenry/alohahenry.github.io/blob/main/_images/2022-10-4-macos%E7%94%A8jekyll%E5%88%9B%E5%BB%BAgithub%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/image-20221004%E4%B8%8B%E5%8D%8865737718.png?raw=true)
 
 这是原因，所以先想着用默认主题吧，后面有了文件改着就简单，但弃用主题选择器意味着不得不碰一点命令行
 
@@ -37,7 +37,7 @@ title: macos用jekyll创建github blog
 
 我先下载了github desktop
 
-![a](https://github.com/AlohaHenry/alohahenry.github.io/blob/main/_images/Snipaste_2022-10-05_09-56-58.png?raw=true)
+![a](https://github.com/AlohaHenry/alohahenry.github.io/blob/main/_images/2022-10-4-macos用jekyll创建github个人博客/Snipaste_2022-10-05_09-56-58.png?raw=true)
 
 然后按照提示正常登入我的 GitHub 账号，然后 Clone 下来那个 GitHub Pages 项目
 
