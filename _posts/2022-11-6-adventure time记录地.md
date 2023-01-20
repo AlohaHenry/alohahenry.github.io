@@ -1,3 +1,0 @@
-讨厌cinnamon bun
-
-感觉从adventure time中感受到了好多，真的是和主角一起成长，动画把说不出来的心里话都说出来了（like无缝衔接什么的）
